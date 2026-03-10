@@ -1,0 +1,15 @@
+# Ignore build artifacts
+build/
+*.o
+*.exe
+*.out
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore compiled binaries with same name as source
+*.class
