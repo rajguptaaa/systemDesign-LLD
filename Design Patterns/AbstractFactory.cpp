@@ -115,7 +115,7 @@ int main() {
 
     string os = "windows";
 
-    if(os == "windows")
+    if(os == "linux")
         factory = new WindowsFactory();
     else
         factory = new MacFactory();
@@ -142,4 +142,14 @@ objects are created together.
 Simple Factory → one factory
 Factory Method → many factories
 Abstract Factory → factory of families
+*/
+
+
+/*
+next
+
+Builder
+Observer
+Adapter
+Decorator
 */
